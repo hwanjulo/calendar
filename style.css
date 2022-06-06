@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Varela+Round&display=swap');
+
+body {
+  font-family: "Varela Round", sans-serif;
+  text-align: center;  
+}
+
+div.container > i, table{
+	display : inline;
+}
+
+div.container{
+	position : relative;
+	margin : auto;
+	vertical-align: middle;
+}
+
+p {
+  font-family: "Pacifico";
+  text-align: center;
+  font-size: 30px;
+}
+
+i{
+	position : absolute;
+	margin : auto;
+	cursor : pointer;
+}
+
+table {
+  	border-collapse: collapse;
+  	margin : auto 100px;
+  	margin-left : 142px;
+
+}
+
+th, td{
+  	border: 1px solid black;
+  	width: 90px;
+  	height: 40px;
+}
+
